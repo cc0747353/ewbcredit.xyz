@@ -4,4 +4,4 @@ settings_default.php
 admin.php
 # add the duplicates folder to the .gitignore file
 duplicates/
- 
+.history/
