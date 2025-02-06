@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="">
         <meta name="keywords" content="">
-		<title>Mono - Business 7</title>
+		<title>EASTWESTBANK</title>
 		<!-- Favicon -->
         <link href="assets/images/favicon.png" rel="shortcut icon">
 		<!-- CSS -->

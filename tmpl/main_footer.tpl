@@ -3,7 +3,7 @@
 				<div class="container">
 					<div class="row g-4">
 						<div class="col-6 col-sm-6 col-lg-3">
-							<h3 class="uppercase letter-spacing-1">mono</h3>
+							<h3 class="uppercase letter-spacing-1">EASTWESTBANK</h3>
 						</div>
 						<div class="col-6 col-sm-6 col-lg-3">
 							<h6 class="font-small fw-medium uppercase">Useful Links</h6>
@@ -60,5 +60,4 @@
 		<script src="assets/js/functions.min.js"></script>
 	</body>
 
-<!-- Mirrored from mono.flatheme.net/home/business-7.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Feb 2025 02:39:52 GMT -->
 </html>
