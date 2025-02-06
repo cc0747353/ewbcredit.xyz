@@ -31,6 +31,8 @@
                 </div>
             </div>
         </div>
+        {literal}
+
         <div class="col-lg-6">
             <div class="bank-card-img">
                 <div class="bank-card wow fadeInUp" data-wow-delay="0.8s">
@@ -51,6 +53,8 @@
                     src="img/bank/Star-4.png" alt="">
             </div>
         </div>
+                  
+        {/literal}
     </div>
 </div>
 </section>
