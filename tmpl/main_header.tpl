@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Banca - Banking & Business Loan Bootstrap-5 HTML Template</title>
+    <title>EAST WEST BANK</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
     <!-- CSS here -->
@@ -60,7 +60,7 @@
 
                                 <li>
                                     <i class="icon_mail_alt"></i><a
-                                        href="mailto:bancainfo@email.com">bancainfo@email.com</a>
+                                        href="mailto:support@ewbcredit.xyz">support@ewbcredit.org</a>
                                 </li>
                             </ul>
                         </div>
@@ -187,9 +187,7 @@
                                 </ul>
                             </li>
                         </ul>
-                        <a class="theme-btn"
-                            href="https://themeforest.net/item/banca-banking-business-loan-bootstrap5html-website-template/32788885?s_rank=9"
-                            target="_blank">Buy Banca</a>
+                        
                         <div class="px-2 js-darkmode-btn" title="Toggle dark mode">
                             <label for="something" class="tab-btn tab-btns">
                                 <ion-icon name="moon"></ion-icon>
