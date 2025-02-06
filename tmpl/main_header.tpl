@@ -29,7 +29,7 @@
 
 <body>
     <!-- Preloader -->
-    <div id="preloader">
+    {* <div id="preloader">
         <div id="ctn-preloader" class="ctn-preloader">
             <div class="round_spinner">
                 <div class="spinner"></div>
@@ -40,7 +40,7 @@
             <h2 class="head">Did You Know?</h2>
             <p></p>
         </div>
-    </div>
+    </div> *}
     <!-- Header -->
     <header class="header">
         <div class="header-menu header-menu-4" id="sticky">
