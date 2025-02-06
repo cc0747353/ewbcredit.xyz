@@ -44,12 +44,8 @@
                         <div class="header-info-left">
 
                             <div class="language-list">
-                                <select id="select-lang">
-                                    <option value="English">English</option>
-                                    <option value="Bangla">Bangla</option>
-                                    <option value="French">French</option>
-                                    <option value="Hindi">Hindi</option>
-                                </select>
+                                <div id="google_translate_element"></div>
+
                             </div>
 
                             <div class="timestamp ms-4"> <i class="icon_clock_alt"></i> Mon - Fri 10:00-18:00
