@@ -91,7 +91,19 @@
                     </button>
 
                     <div style="background-color: #131417" class="collapse navbar-collapse" id="navbarSupportedContent">
+
                         <ul class="navbar-nav menu ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="loan.html">Loan</a></li>
+                            <li class="nav-item"><a class="nav-link" href="career.html">Career</a></li>
+                            <li class="nav-item"><a class="nav-link" href="card.html">Cards</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        </ul>
+
+
+                        {* <ul class="navbar-nav menu ms-auto">
                             <li class="nav-item dropdown submenu ">
                                 <a href="#" class="nav-link dropdown-toggle active" role="button"
                                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
@@ -186,7 +198,7 @@
                                     </li>
                                 </ul>
                             </li>
-                        </ul>
+                        </ul> *}
                         
                         <div class="px-2 js-darkmode-btn" title="Toggle dark mode">
                             <label for="something" class="tab-btn tab-btns">
