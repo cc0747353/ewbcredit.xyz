@@ -31,8 +31,6 @@
                     <img src="img/logo/Logo-2.png" alt="">
                 </div>
             </div>
-            <h2 class="head">Did You Know?</h2>
-            <p></p>
         </div>
     </div>
     <!-- Header -->
