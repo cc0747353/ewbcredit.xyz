@@ -1,4 +1,4 @@
-{include file="main_header"}
+{include file="main_header.tpl"}
 
 <!-- Hero section -->
 <div class="owl-carousel owl-nav-overlay owl-dots-overlay" data-owl-nav="true" data-owl-dots="true" data-owl-items="1" data-owl-autoPlay="true">
@@ -212,4 +212,4 @@
 </div>
 <!-- end Clients section -->
 
-{include file="main_footer"}
+{include file="main_footer.tpl"}
