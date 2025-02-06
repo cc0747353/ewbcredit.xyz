@@ -1,472 +1,467 @@
 {include file="main_header.tpl"}
 
-<!-- Banner start -->
-<section class="banner-area-2 loan-banner pt-145" style="background-image: url(img/banner/loan-banner.png)">
-  <div class="container">
-    <div class="row align-items-center  pt-165 pb-200">
-      <div class="col-lg-7 mx-auto">
-        <div class="banner-content text-center">
-          <div class="section-title">
-            <h1 class="wow fadeInUp">Get your loan approved in 3 steps</h1>
+{literal}
+  <section class="banner-area-2 pt-200 pb-95" id="banner_animation"
+    style="background-size: auto; background-position: top left;">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="banner-content">
+            <img data-parallax='{"x": 0, "y": 250, "rotateZ":0}' class="shape" src="img/banner/shape-3.png" alt="shape">
+            <h1 class="wow fadeInUp mb-0">Flexible home loans for the international lifestyle.</h1>
+            <p class="wow fadeInUp mt-50" data-wow-delay="0.3s">Banca is the one you can rely that will
+              support you all the way by offering Home Loan
+              facilities.</p>
+            <a href="loan.html" data-wow-delay="0.5s" class="wow fadeInUp theme-btn theme-btn-lg mt-50">Apply
+              now <i class="arrow_right"></i>
+            </a>
           </div>
-          <a class="theme-btn theme-btn-lg theme-btn-alt mt-50 wow fadeInUp" data-wow-delay='0.2s'
-            href="loan-details.html">
-            Get started <i class="arrow_right"></i>
-          </a>
+        </div>
+        <div class=" col-md-6 col-lg-5 offset-lg-1 pt-40">
+          <div class="banner-img">
+            <img class="main-img img-fluid wow fadeInRight" src="img/banner/banner-img-2.png" alt="banner-img">
+            <div class="shapes">
+              <img data-parallax='{"x": 0, "y": 130, "rotateZ":0}' class="shape-1" src="img/banner/shape-1.png"
+                alt="shape">
+              <img data-parallax='{"x": 0, "y": -130, "rotateZ":0}' class="shape-2" src="img/banner/shape-2.png"
+                alt="shape">
+              <img data-parallax='{"x": 250, "y":0, "rotateZ":0}' class="shape-3" src="img/banner/shape-4.png"
+                alt="shape">
+              <img data-parallax='{"x": -200, "y": 250, "rotateZ":0}' class="shape-4" src="img/banner/shape-5.png"
+                alt="shape">
+              <img class="shape-5" src="img/banner/shape-6.png" alt="shape">
+              <img class="shape-6" src="img/banner/shape-7.png" alt="shape">
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  </section>
+  <!-- banner section -->
 
-    <div class="row position-relative pt-70 d-lg-block d-none">
-      <div class="col-md-12">
-        <div class="floated-widget">
-          <div class="row gy-4 gy-lg-0 gx-5">
-            <div class="col-lg-4 border-end">
-              <div class="steps-widget pr-30 pl-30 wow fadeInUp" data-wow-delay="0.1s">
-                <img src="img/steps/icon-1.png" alt="icon">
-                <h4><a href="#">Check Eligibility</a></h4>
-                <p>Select your loan amount, answer a few questions and get instant loan amount
-                </p>
+  <section class="feature-area-2 pt-140 pb-140" id="feature">
+    <div class="container">
+      <div class="feature">
+        <div class="row gy-lg-0 gy-4">
+          <div class="col-lg-4">
+            <div class="feature-widget-2 align-items-center wow fadeInRight feature-1" data-wow-delay="0.1s">
+
+              <div class="shapes">
+                <img src="img/feature/shape-6.png" alt="shape">
+                <img src="img/feature/shape-10.png" alt="shape">
+                <img src="img/feature/shape-4.png" alt="shape">
+                <img src="img/feature/shape-3.png" alt="shape">
+                <img src="img/feature/shape-12.png" alt="shape">
+                <img src="img/feature/shape-12.png" alt="shape">
               </div>
-            </div>
-            <div class="col-lg-4  border-end">
-              <div class="steps-widget pr-30 pl-30 wow fadeInUp" data-wow-delay="0.3s">
-                <img src="img/steps/icon-2.png" alt="icon">
-                <h4><a href="#">Submit Documents</a></h4>
-                <p>Share required documents with our representative hassle-free
-                </p>
+
+              <div class="feature-img">
+                <img src="img/feature/icon-5.png" alt="">
               </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="steps-widget pr-30 pl-30 wow fadeInUp" data-wow-delay="0.5s">
-                <img src="img/steps/icon-3.png" alt="icon">
-                <h4><a href="#">Approval in Principle</a></h4>
-                <p>Choose the final sanctioned loan offer with the terms that work best for you
-                </p>
+              <div class="feature-content">
+                <p>UP TO $5M</p>
+                <h6>High Rang Loan</h6>
               </div>
             </div>
           </div>
+          <div class="col-lg-4">
+            <div class="feature-widget-2 align-items-center wow fadeInRight feature-2" data-wow-delay="0.3s">
+              <div class="shapes">
+                <img src="img/feature/shape-13.png" alt="shape">
+                <img src="img/feature/shape-14.png" alt="shape">
+                <img src="img/feature/shape-15.png" alt="shape">
+                <img src="img/feature/shape-11.png" alt="shape">
+                <img src="img/feature/shape-12.png" alt="shape">
+                <img src="img/feature/shape-5.png" alt="shape">
+              </div>
+              <div class="feature-img">
+                <img src="img/feature/icon-6.png" alt="">
+              </div>
+              <div class="feature-content">
+                <p>FROM 7.50%</p>
+                <h6>Offer Low Interest</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="feature-widget-2 align-items-center wow fadeInRight feature-3" data-wow-delay="0.5s">
+              <div class="shapes">
+                <img src="img/feature/shape-1.png" alt="shape">
+                <img src="img/feature/shape-2.png" alt="shape">
+                <img src="img/feature/shape-6.png" alt="shape">
+                <img src="img/feature/shape-9.png" alt="shape">
+                <img src="img/feature/shape-11.png" alt="shape">
+              </div>
+              <div class="feature-img">
+                <img src="img/feature/icon-7.png" alt="">
+              </div>
+              <div class="feature-content">
+                <p>7 DAYS PROCESS</p>
+                <h6>Fast & Easy Process</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fast-e-loan pt-130">
+        <div class="row gy-xl-0 gy-4">
+          <div class="col-xl-5 ">
+            <div class="section-title text-start">
+              <h2 class="mb-3">Fast, secure & easy loans in just 7 days</h2>
+              <p>Need some fast cash? Bad cradit history? We dont mind about your past,
+                just the
+                future.
+                Try loan start and feel secure in your future.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 offset-xl-1 ">
+            <div class="apply-topics">
+              <ul>
+                <li><i class="icon_box-checked"></i>Get up to $15,000 Cash Fast</li>
+                <li><i class="icon_box-checked"></i>15 MinuteOnline Application</li>
+                <li><i class="icon_box-checked"></i>Centrelink Considered*</li>
+                <li><i class="icon_box-checked"></i>Bad Credit Considered2</li>
+              </ul>
+              <a href="loan.html" class="theme-btn mt-20 w-100">Apply for loans</a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 ">
+            <div class="learn-more">
+              <ul>
+                <li><span>1.</span> Subject to verifcation, suitability and affordability</li>
+                <li class="mt-20"><span>2.</span> Your income from Centrelink must be less then 50%
+                  of your total
+                  income in
+                  order to qialify.</li>
+              </ul>
+              <a href="#" class="theme-btn theme-btn-light w-100 mt-30">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="manage-c-finance pt-125 pb-140">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <div class="section-title">
+            <h2 class="wow fadeInUp">Manage your corporate finances by yourself or in a team</h2>
+            <p class="wow fadeInUp" data-wow-delay="0.3s">To replace or complement your bank</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row pt-60 gy-4 gy-xl-0">
+        <div class="col-xl-3 col-md-6">
+          <div class="feature-card-widget-2 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="icon-bg-1">
+
+              <img src="img/corporate-finance/icon-5.svg" alt="icon">
+            </div>
+            <h5>Freelancers</h5>
+            <p>The best business account to send and receive payments on a daily basis.</p>
+            <a href="#" class="theme-btn theme-btn-outlined mt-45">Find Out More</a>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="feature-card-widget-2 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="icon-bg-2">
+
+              <img src="img/corporate-finance/icon-2.svg" alt="icon">
+            </div>
+            <h5>SMBs & Startups</h5>
+            <p>Optimize your team's expenses by always staying in control.</p>
+          <a href="#" class="theme-btn theme-btn-outlined mt-45">Find Out More</a>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6">
+        <div class="feature-card-widget-2 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="icon-bg-3">
+
+            <img src="img/corporate-finance/icon-3.svg" alt="icon">
+          </div>
+          <h5>Business Founders</h5>
+          <p>Open a business account for the online deposit of your share capital.</p>
+          <a href="#" class="theme-btn theme-btn-outlined mt-45">Find Out More</a>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6">
+        <div class="feature-card-widget-2 wow fadeInUp" data-wow-delay="0.7s">
+          <div class="icon-bg-4">
+
+            <img src="img/corporate-finance/icon-4.svg" alt="icon">
+          </div>
+          <h5>Microbusinesses</h5>
+          <p>Stay focused on your core business by managing your finances and accounting.</p>
+          <a href="#" class="theme-btn theme-btn-outlined mt-45">Find Out More</a>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- Banner end -->
 
-<!-- Apply Loan start -->
-<section class="apply-loan-area pt-200 pb-140 bg_disable">
+
+<section class="how-it-work pt-125 pb-140">
   <div class="container">
-    <div class="row pt-3">
-      <div class="col-xl-6 mx-auto">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
         <div class="section-title">
-          <h2 class="wow fadeInUp">One step closer to finding your perfect Home!</h2>
+          <h2 class="wow fadeInUp mb-3">Here's how it works.</h2>
+            <p class="wow fadeInUp" data-wow-delay="0.3s">When you're ready, Cardinal Loans is ready too
+            - 24 hours a day, 7 days a week.</p>
         </div>
       </div>
     </div>
-    <form action="https://html-template.spider-themes.net/banca/personal-details.html">
-      <div class="row">
-        <div class="col-md-10 mx-auto">
-          <div class="row pt-35  gy-lg-0 gy-3">
-            <div class="col-lg-4">
-              <div class="loan-apply-widget wow fadeInRight" data-wow-delay="0.1s">
-                <div class="icon">
-                  <img src="img/apply-loan/icon-1.1.png" alt="icon-1">
-                  <img src="img/apply-loan/icon-1.2.png" alt="icon-1.2">
-                </div>
-                <div class="apply-content">
-                  <span class="title">How much do you need?</span>
-                  <p class="d-flex">$ <input class="w-100" type="text" value="5,000"> </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="loan-apply-widget wow fadeInRight" data-wow-delay="0.3s">
-                <div class="icon">
-                  <img src="img/apply-loan/icon-2.1.png" alt="icon-2">
-                  <img src="img/apply-loan/icon-2.2.png" alt="icon-2.2">
-                </div>
-                <div class="apply-content">
-                  <span class="title">Type of Loan</span>
-                  <select name="select-loan-type" id="select-loan-type">
-                    <option>Select your Loan</option>
-                    <option value="Home Loan">Home Loan</option>
-                    <option value="Loan Against Property">Loan Against Property</option>
-                    <option value="Loan Renovation">Loan Renovation</option>
-                    <option value="Commercial Property">Commercial Property</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="loan-apply-widget wow fadeInRight" data-wow-delay="0.5s">
-                <div class="icon">
-                  <img src="img/apply-loan/icon-3.1.png" alt="icon-3">
-                  <img src="img/apply-loan/icon-3.2.png" alt="icon-3.2">
-                </div>
-                <div class="apply-content">
-                  <span class="title">Where do you currently live?</span>
-                  <div class="select-location d-flex align-items-center" id="locationSlectParent">
-                    <select class="w-100" name="select-location" id="locationSelect">
-                      <option value="Bagerhat">Bagerhat</option>
-                      <option value="Bandarban" selected>Bandarban</option>
-                      <option value="Barguna">Barguna</option>
-                      <option value="Barisal">Barisal</option>
-                      <option value="Bhola">Bhola</option>
-                      <option value="Barishal Metro">Barishal Metro</option>
-                      <option value="Bogra">Bogra</option>
-                      <option value="Brahmmanbaria">Brahmmanbaria</option>
-                      <option value="Chandpur">Chandpur</option>
-                      <option value="Chapai Nawabganj">Chapai Nawabganj</option>
-                      <option value="Chittagong">Chittagong</option>
-                      <option value="Chuadanga">Chuadanga</option>
-                      <option value="Chottogram Metro">Chottogram Metro</option>
-                      <option value="Cox&#039;s Bazar">Cox&#039;s Bazar</option>
-                      <option value="Coxsbazar">Coxsbazar</option>
-                      <option value="Cumilla">Cumilla</option>
-                      <option value="Dhaka">Dhaka</option>
-                      <option value="Dinajpur">Dinajpur</option>
-                      <option value="Dhaka Metro">Dhaka Metro</option>
-                      <option value="Faridpur">Faridpur</option>
-                      <option value="Feni">Feni</option>
-                      <option value="Gaibandha">Gaibandha</option>
-                      <option value="Gazipur">Gazipur</option>
-                      <option value="Gazipur Metro">Gazipur Metro</option>
-                      <option value="Gopalgonj">Gopalgonj</option>
-                      <option value="Habigonj">Habigonj</option>
-                      <option value="Jaflong">Jaflong</option>
-                      <option value="Jamalpur">Jamalpur</option>
-                      <option value="Jessore">Jessore</option>
-                      <option value="Jhalokathi">Jhalokathi</option>
-                      <option value="Jhenaidah">Jhenaidah</option>
-                      <option value="Joypurhat">Joypurhat</option>
-                      <option value="Khagrachari">Khagrachari</option>
-                      <option value="Khulna">Khulna</option>
-                      <option value="Kishoregonj">Kishoregonj</option>
-                      <option value="Khulna Metro">Khulna Metro</option>
-                      <option value="Kurigram">Kurigram</option>
-                      <option value="Kustia">Kustia</option>
-                      <option value="Lalmonirhat">Lalmonirhat</option>
-                      <option value="Laxmipur">Laxmipur</option>
-                      <option value="Madaripur">Madaripur</option>
-                      <option value="Magura">Magura</option>
-                      <option value="Manikgonj">Manikgonj</option>
-                      <option value="Meherpur">Meherpur</option>
-                      <option value="Moulabhibazar">Moulabhibazar</option>
-                      <option value="Munshigonj">Munshigonj</option>
-                      <option value="Mymensingh">Mymensingh</option>
-                      <option value="Naogaon">Naogaon</option>
-                      <option value="Narail">Narail</option>
-                      <option value="Narayangonj">Narayangonj</option>
-                      <option value="Narsingdi">Narsingdi</option>
-                      <option value="Natore">Natore</option>
-                      <option value="Netrokona">Netrokona</option>
-                      <option value="Nilphamari">Nilphamari</option>
-                      <option value="Noakhali">Noakhali</option>
-                      <option value="Pabna">Pabna</option>
-                      <option value="Panchagarh">Panchagarh</option>
-                      <option value="Patuakhali">Patuakhali</option>
-                      <option value="Pirojpur">Pirojpur</option>
-                      <option value="Rajbari">Rajbari</option>
-                      <option value="Rajshahi">Rajshahi</option>
-                      <option value="Rangamati">Rangamati</option>
-                      <option value="Rangpur">Rangpur</option>
-                      <option value="Rajshahi Metro ">Rajshahi Metro </option>
-                      <option value="Rangpur Metro ">Rangpur Metro </option>
-                      <option value="Saint Martin">Saint Martin</option>
-                      <option value="Satkhira">Satkhira</option>
-                      <option value="Shariatpur">Shariatpur</option>
-                      <option value="Sherpur">Sherpur</option>
-                      <option value="Sirajgonj">Sirajgonj</option>
-                      <option value="Sylhet Metro">Sylhet Metro</option>
-                      <option value="Srimangal">Srimangal</option>
-                      <option value="Sunamgonj">Sunamgonj</option>
-                      <option value="Sylhet">Sylhet</option>
-                      <option value="Tangail">Tangail</option>
-                      <option value="Teknaf">Teknaf</option>
-                      <option value="Thakurgaon">Thakurgaon</option>
-                    </select>
-                    <span class="close" id="readOnlyClose">
-                      <i class="icon_close"></i>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div class="col-12 mt-15 d-flex wow fadeInLeft">
-              <div class="icon">
-                <img class="img=fluid" src="img/steps/sheild.png" alt="sheild">
-              </div>
-              <p class="security-info d-inline-block ms-2">
-                Your information is 100% secure. We do not share your info with other
-                parties.
+    <div class="row pt-60 gy-lg-0 gy-4">
+      <div class="col-lg-6 pe-lg-5">
+        <div class="single-widget apply-online wow fadeInUp" data-wow-delay="0.1s">
+          <div class="widget-header">
+            <div class="widget-img">
+              <img src="img/how-works/icon-1.png" alt="icon">
+            </div>
+            <div class="widget-title">
+              <h4>Apply Online</h4>
+              <p>That is why we have a wide range of you can apply for a Personal Loan.</p>
+            </div>
+          </div>
+
+          <ul class="widget-content">
+            <li class="active"> <span class="number">1</span> <span class="text">Apply Online</span>
+            </li>
+            <li> <span class="number">2</span> <span class="text">Enter Your Informantion - 10
+                min</span> </li>
+            <li> <span class="number">3</span> <span class="text">Pre-qualify / Pre-Approve - 5
+                min</span> </li>
+            <li> <span class="number">4</span> <span class="text">Help you prepare</span> </li>
+            <li> <span class="number">5</span> <span class="text">We help your qualify - 15
+                days</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-6 ps-lg-0">
+        <div class="single-widget consultation wow fadeInUp" data-wow-delay="0.3s">
+          <div class="widget-header">
+            <div class="widget-img">
+              <img src="img/how-works/icon-2.png" alt="icon">
+            </div>
+            <div class="widget-title">
+              <h4>Consultation</h4>
+              <p>Conis Guide on the supervisory approach to consolidation in the banking sector.
               </p>
             </div>
-
-            <div class="col-12 text-center mt-35">
-              <button class="theme-btn theme-btn-lg wow fadeInUp" type="submit">
-                apply now <i class="arrow_right"></i>
-              </button>
-
-            </div>
           </div>
-        </div>
-      </div>
-    </form>
-  </div>
-</section>
-<!-- Apply Loan end -->
 
-<!-- Emi Calculator start -->
-<section class="pt-125 pb-140 bg_white">
-  <div class="container">
-    <div class="row ">
-      <div class="col-lg-6 mx-auto">
-        <div class="section-title">
-          <h2 class="wow fadeInUp">Calculator</h2>
-          <p class="wow fadeInUp" data-wow-delay="0.3s">Get an approximate figure for the total
-            monthly instalment payments along with a complete
-            break-up of the home loan.</p>
+          <ul class="widget-content">
+            <li class="active"> <span class="number">1</span><span class="text">Schedule a Free
+                Consulation</span></li>
+            <li> <span class="number">2</span> <span class="text">Discuss your Situation</span>
+            </li>
+            <li> <span class="number">3</span> <span class="text">We Review your condition </span>
+            </li>
+            <li> <span class="number">4</span> <span class="text">Help you prepare</span> </li>
+            <li> <span class="number">5</span> <span class="text">We help your qualify</span> </li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="calculator-widget mt-50">
-      <div class="row  gy-lg-0 gy-3">
-        <div class="col-lg-7">
-          <div class="single-calculator-widget wow fadeInUp" data-wow-delay="0.1s">
-            <div class="single-range">
-              <div class="range-header d-flex justify-content-between align-items-center mb-25">
-                <h6>Loan Amount</h6>
-
-                <input type="text" id="SetRange">
-              </div>
-              <div id="RangeSlider"></div>
-            </div>
-            <div class="single-range mt-85 mb-95">
-              <div class="range-header d-flex flex-wrap justify-content-between align-items-center mb-25">
-                <h6>Loan Duration</h6>
+  </div>
+</section>
 
 
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li><span class="active_bar"></span></li>
-                  <li class="nav-item" role="presentation">
-                    <a class="nav-link month-tab" id="monthTab-tab" data-bs-toggle="tab" href="#monthTab" role="tab"
-                      aria-controls="monthTab" aria-selected="true">Month</a>
-                  </li>
-                  <li class="nav-item " role="presentation">
-                    <a class="nav-link year-tab active" id="yearTab-tab" data-bs-toggle="tab" href="#yearTab" role="tab"
-                      aria-controls="yearTab" aria-selected="false">Year</a>
-                  </li>
+<section class="security-area">
+  <div class="security-priority pt-90 pb-95 text-center">
+    <div class="shapes">
+      <img src="img/security-tips/shape-1.png" alt="shape">
+      <img src="img/security-tips/shape-2.png" alt="shape">
+      <img src="img/security-tips/shape-3.png" alt="shape">
+      <img src="img/security-tips/shape-4.png" alt="shape">
+      <img src="img/security-tips/shape-5.png" alt="shape">
+      <img src="img/security-tips/shape-6.png" alt="shape">
+      <img src="img/security-tips/shape-1.png" alt="shape">
+      <img data-parallax='{"x": -60, "y": 150, "rotateZ":-15}' src="img/security-tips/shape-7.png" alt="shape">
+      <img data-parallax='{"x": 0, "y": -150, "rotateZ":0}' src="img/security-tips/shape-8.png" alt="shape">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 mx-auto">
+          <img src="img/security-tips/security-priority.png" alt="icon">
+          <h2 class="mt-4 mb-3">Your security. Our priority.</h2>
+          <p>We always have your security in mind. Rest easy knowing your data is protected with
+            128-bit encryption. <a href="#">Learn more.</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-                </ul>
-
-                <input type="text" id="SetMonthRange">
-              </div>
 
 
-              <div class="tab-content">
-                <div class="tab-pane fade " id="monthTab" role="tabpanel" aria-labelledby="monthTab">
+<section class="faq-area pt-125 pb-200">
+  <div class="container">
+    <div class="section-title text-start">
+      <h2 class="mb-0 wow fadeInUp">Frequently asked questions</h2>
+    </div>
 
-                  <div id="MonthRangeSlider"></div>
+    <div class="row pt-30 align-items-end">
+      <div class="col-lg-7 col-md-8">
+        <div class="faq-widget">
+          <div class="accordion" id="accordionExample">
+            <div class="single-widget-one wow fadeInUp" data-wow-delay="0.1s">
+              <div class="w-100">
+                <div class="faq-header" id="headingOne">
+                  <h4 class="mb-0" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    Can I pay off my loan early?<i class="icon_plus"></i><i class=" icon_minus-06"></i>
+                  </h4>
                 </div>
-                <div class="tab-pane fade show active" id="yearTab" role="tabpanel" aria-labelledby="yearTab">
-
-                  <div id="YearRangeSlider"></div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="faq-body">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                      terry
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                      skateboard
+                      dolor brunch.</p>
+                  </div>
                 </div>
-
               </div>
-              <div class="d-none" id="WeekRangeSlider"></div>
             </div>
 
-            <div class="bg_disable px-4 py-2 mb-5 interestBox">
-              <p>Rate of Interest</p>
-              <span id="InterestAmount"></span>
+            <div class="single-widget-one wow fadeInUp" data-wow-delay="0.3s">
+              <div class="w-100">
+                <div class="faq-header" id="headingTwo">
+                  <h4 class="mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    How much can I Banca?<i class="icon_plus"></i><i class=" icon_minus-06"></i>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="faq-body">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                      terry
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                      skateboard
+                      dolor brunch.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="single-widget-one wow fadeInUp" data-wow-delay="0.5s">
+              <div class="w-100">
+                <div class="faq-header" id="headingThree">
+                  <h4 class="mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                    aria-expanded="true" aria-controls="collapseThree">
+                    Do you offering refinancing ?<i class="icon_plus"></i><i class=" icon_minus-06"></i>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="faq-body">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                      terry
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                      skateboard
+                      dolor brunch.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="single-widget-one wow fadeInUp" data-wow-delay="0.7s">
+              <div class="w-100">
+                <div class="faq-header" id="headingFour">
+                  <h4 class="mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                    aria-expanded="true" aria-controls="collapseFour">
+                    Can I do all of my banking with you?<i class="icon_plus"></i><i class=" icon_minus-06"></i>
+                  </h4>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="faq-body">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                      terry
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                      skateboard
+                      dolor brunch.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="single-widget-one wow fadeInUp" data-wow-delay="0.9s">
+              <div class="w-100">
+                <div class="faq-header" id="headingFive">
+                  <h4 class="mb-0 collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                    aria-expanded="true" aria-controls="collapseFive">
+                    When should i apply?<i class="icon_plus"></i><i class=" icon_minus-06"></i>
+                  </h4>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample">
+                  <div class="faq-body">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                      terry
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                      skateboard
+                      dolor brunch.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="col-md-4 offset-lg-1 mt-4 mt-md-0 ps-lg-5">
+        <div class="faq-img">
+          <img class="img-fluid" src="img/faq/illustration.png" alt="faq-image">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <div class="col-lg-5 pl-lg-35">
-          <div class="calculator-result-widget bg_disable wow fadeInUp" data-wow-delay="0.3s">
+<section class="cta-area pt-60">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 position-relative">
+        <div class="cta cta-bg-primary">
+
+          <div class="shapes">
+            <img src="img/cta/icon-1.png" alt="shape">
+            <img data-parallax='{"x": 150, "y": 0, "rotateZ":-0}' src="img/cta/icon-2.png" alt="shape">
+            <img src="img/cta/icon-3.png" alt="shape">
+            <img src="img/cta/icon-4.png" alt="shape">
+            <img src="img/cta/icon-5.png" alt="shape">
+            <img data-parallax='{"x": 400, "y": 0, "rotateZ":0}' src="img/cta/icon-6.png" alt="shape">
+            </div>
 
             <div class="row align-items-center">
-              <div class="col-lg-7 col-md-8 col-sm-7">
-                <div class="emi-amount">
-                  <h6>EMI Amount</h6>
-                  <span>Principal + Interest</span>
-                  <p class="mt-10 LoanTotalAmount"></p>
-                </div>
-                <div class="interest-payable mt-20">
-                  <h6>Interest Payable</h6>
-                  <p class="mt-10" id="InterestPayable"></p>
+              <div class="col-md-7">
+                <div class="cta-content wow fadeInRight">
+                  <h2 class="mb-10">Have any question?</h2>
+                  <p>Ask us anythisg.Do you have a love question you want us to answer?</p>
                 </div>
               </div>
-              <div class="col-lg-5 col-md-4 col-sm-5 col-7 mx-auto">
-                <div class="pie-wrapper" id="loan_graph_circle">
-                  <div class="pie">
-                    <div class="left-side half-circle"></div>
-                    <div class="right-side half-circle"></div>
-                  </div>
-                  <div class="circle-border"></div>
-                </div>
-              </div>
-            </div>
-            <div class="row mt-lg-60 mt-25 text-center">
-              <div class="col-12">
-                <h4 class="mb-1">Your EMI Amount</h4>
-                <h1 class="m-0" id="emiAmount">$ 3,495*</h1>
 
-                <a href="personal-details.html" class="theme-btn theme-btn-lg mt-40">Apply Now
-                  <i class="arrow_right"></i></a>
+              <div class="col-md-5 text-center text-md-end">
+                <div class="cta-content   text-md-end mt-3 mt-md-0">
+                  <a href="contact.html" class="theme-btn theme-btn-alt wow fadeInLeft m-0">Contact Us</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- Emi Calculator end -->
-
-<!-- Testimonial start -->
-<section class="pt-140 pb-140 testimonial-area bg_disable">
-  <div class="container-fluid px-0">
-    <div class="testimonial-slider">
-      <div class="single-slider container px-0">
-        <div class="testimonial-widget">
-          <div class="row">
-            <div class="col-4">
-              <div class="author-img">
-                <img src="img/testimonial/img-2.png" alt="image">
-              </div>
-            </div>
-            <div class="col-8 d-flex align-items-center">
-              <div class="testimonial-content">
-                <div class="watch-button">
-                  <a data-fancybox href="https://www.youtube.com/watch?v=xcJtL7QggTI">
-                    <i class="fa fa-play"></i>
-                    watch the video
-                  </a>
-                </div>
-                <h2>Making dreams a reality!</h2>
-                <p class="pr-lg-60">We were looking for a home of happiness and peace. Thanks to
-                  the
-                  Grihashakti
-                  team, who helped us to realise this dream of ours. Our home has been
-                  very
-                  lucky for us – as we shifted to our new home, prosperity followed!
-                </p>
-                <div class="author-info">
-                  <h4>Maxwell Wood</h4>
-                  <span>New York, US</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="single-slider container px-0">
-        <div class="testimonial-widget">
-          <div class="row">
-            <div class="col-4">
-              <div class="author-img">
-                <img src="img/testimonial/img-1.png" alt="image">
-              </div>
-            </div>
-            <div class="col-8 d-flex align-items-center">
-              <div class="testimonial-content">
-                <div class="watch-button">
-                  <a data-fancybox href="https://www.youtube.com/watch?v=xcJtL7QggTI">
-                    <i class="fa fa-play"></i>
-                    watch the video
-                  </a>
-                </div>
-                <h2>Making dreams a reality!</h2>
-                <p class="pr-lg-60">We were looking for a home of happiness and peace. Thanks to
-                  the
-                  Grihashakti
-                  team, who helped us to realise this dream of ours. Our home has been
-                  very
-                  lucky for us – as we shifted to our new home, prosperity followed!
-                </p>
-                <div class="author-info">
-                  <h4>Maxwell Wood</h4>
-                  <span>New York, US</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="single-slider container px-0">
-        <div class="testimonial-widget">
-          <div class="row">
-            <div class="col-4">
-              <div class="author-img">
-                <img src="img/testimonial/img-2.png" alt="image">
-              </div>
-            </div>
-            <div class="col-8 d-flex align-items-center">
-              <div class="testimonial-content">
-                <div class="watch-button">
-                  <a data-fancybox href="https://www.youtube.com/watch?v=xcJtL7QggTI">
-                    <i class="fa fa-play"></i>
-                    watch the video
-                  </a>
-                </div>
-                <h2>Making dreams a reality!</h2>
-                <p class="pr-lg-60">We were looking for a home of happiness and peace. Thanks to
-                  the
-                  Grihashakti
-                  team, who helped us to realise this dream of ours. Our home has been
-                  very
-                  lucky for us – as we shifted to our new home, prosperity followed!
-                </p>
-                <div class="author-info">
-                  <h4>Maxwell Wood</h4>
-                  <span>New York, US</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="single-slider container px-0">
-        <div class="testimonial-widget">
-          <div class="row">
-            <div class="col-4">
-              <div class="author-img">
-                <img src="img/testimonial/img-1.png" alt="image">
-              </div>
-            </div>
-            <div class="col-8 d-flex align-items-center">
-              <div class="testimonial-content">
-                <div class="watch-button">
-                  <a data-fancybox href="https://www.youtube.com/watch?v=xcJtL7QggTI">
-                    <i class="fa fa-play"></i>
-                    watch the video
-                  </a>
-                </div>
-                <h2>Making dreams a reality!</h2>
-                <p class="pr-lg-60">We were looking for a home of happiness and peace. Thanks to
-                  the
-                  Grihashakti
-                  team, who helped us to realise this dream of ours. Our home has been
-                  very
-                  lucky for us – as we shifted to our new home, prosperity followed!
-                </p>
-                <div class="author-info">
-                  <h4>Maxwell Wood</h4>
-                  <span>New York, US</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-<!-- Testimonial end -->
+  </section>
+{/literal}
 
 {include file="main_footer.tpl"}
