@@ -1,100 +1,189 @@
-<!DOCTYPE html>
-<html lang="en">
-	
-<!-- Mirrored from mono.flatheme.net/home/business-7.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Feb 2025 02:39:52 GMT -->
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+
+<!-- Mirrored from html-template.spider-themes.net/banca/index-small-bank.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Feb 2025 14:33:16 GMT -->
 <head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="">
-        <meta name="keywords" content="">
-		<title>EASTWESTBANK</title>
-		<!-- Favicon -->
-        <link href="assets/images/favicon.png" rel="shortcut icon">
-		<!-- CSS -->
-		<link href="assets/plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
-		<link href="assets/plugins/owl-carousel/owl.carousel.min.css" rel="stylesheet">
-		<link href="assets/plugins/owl-carousel/owl.theme.default.min.css" rel="stylesheet">
-		<link href="assets/plugins/magnific-popup/magnific-popup.min.css" rel="stylesheet">
-		<link href="assets/plugins/scrollcue/scrollcue.css" rel="stylesheet">
-		<link href="assets/plugins/swiper/swiper-bundle.min.css" rel="stylesheet">
-		<link href="assets/css/theme.min.css" rel="stylesheet">
-		<!-- Fonts/Icons -->
-		<link href="assets/plugins/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-		<link href="assets/plugins/font-awesome/css/all.css" rel="stylesheet">
-	</head>
-	<body data-preloader="1">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>EAST WEST BANK</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
-		
+    <!-- CSS here -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/elegant-icons.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/all.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/nice-select.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/nouislider.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/flatpickr.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="all" />
+</head>
 
-		<!-- Header -->
-		<div class="header transparent-light header-color-dark sticky-autohide">
-			<div class="container">
-				<!-- Logo -->
-				<div class="header-logo">
-					<h3 class="uppercase letter-spacing-1"><a href="/">EASTWESTBANK</a></h3>
-				</div>
-				<!-- Menu -->
-				<div class="header-menu">
-					<ul class="nav">
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="ctn-preloader" class="ctn-preloader">
+            <div class="round_spinner">
+                <div class="spinner"></div>
+                <div class="text">
+                    <img src="img/logo/Logo-2.png" alt="">
+                </div>
+            </div>
+            <h2 class="head">Did You Know?</h2>
+            <p></p>
+        </div>
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-menu header-menu-4" id="sticky">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                    <a class="navbar-brand sticky_logo" href="index.html">
+                        <img class="main" src="img/logo/Logo.png" srcset="img/logo/Logo@2x.png 2x" alt="logo">
+                        <img class="sticky" src="img/logo/Logo-2.png" srcset="img/logo/Logo-2@2x.png 2x" alt="logo">
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="menu_toggle">
+                            <span class="hamburger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                            <span class="hamburger-cross">
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </span>
+                    </button>
 
-          {* <a href="{"?a=home"|encurl}" class=toplink>Home</a> &middot; 
-<a href="{"?a=faq"|encurl}" class=toplink>FAQ</a> &middot; 
-<a href="{"?a=rules"|encurl}" class=toplink>Rules</a> &middot; 
-{if $userinfo.logged != 1}
-<a href="{"?a=signup"|encurl}" class=toplink>Sign up</a> &middot; 
-<a href="{"?a=login"|encurl}" class=toplink>Login</a> &middot; 
-{else}
-<a href="{"?a=logout"|encurl}" class=toplink>Logout</a> &middot; 
-{/if}
-<a href="{"?a=support"|encurl}" class=toplink>Support</a></b>&nbsp; &nbsp;</td>
- *}
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav menu ms-auto">
+                            <li class="nav-item dropdown submenu ">
+                                <a href="#" class="nav-link dropdown-toggle active" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="true"
+                                    data-bs-toggle="dropdown"></i>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item "><a href="index.html" class="nav-link active">Smart Finance</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-company.html" class="nav-link ">Loan Company</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-app.html" class="nav-link">Mobile App</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-simple.html" class="nav-link ">Simple Banca</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-loan.html" class="nav-link">Loan Steps</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-finance.html" class="nav-link">Finance Sass
+                                            App</a>
+                                    </li>
+                                    <li class="nav-item active"><a href="index-small-bank.html" class="nav-link">Small
+                                            Bank</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown submenu">
+                                <a class="nav-link dropdown-toggle" href="loan.html" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Loan
+                                </a>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                    data-bs-toggle="dropdown"></i>
 
-						<li class="nav-item">
-							<a class="nav-link" href="{"?a=home"|encurl}">Home</a>
-						</li>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="loan.html">Get loan</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Loan
+                                            Application</a>
+                                        <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                            data-bs-toggle="dropdown"></i>
 
-            <li class="nav-item">
-              <a class="nav-link" href="{"?a=about"|encurl}">About Us</a>
-            </li>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a class="nav-link" href="loan-details.html">Step
+                                                    01</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="personal-details.html">Step
+                                                    02</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="document-upload.html">Step
+                                                    03</a></li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="{"?a=services"|encurl}">Our Services</a>
-            </li>
+                                        </ul>
+                                    </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="{"?a=rules"|encurl}">Rules</a>
-            </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown submenu">
+                                <a class="nav-link dropdown-toggle" href="career.html" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Job Pages
+                                </a>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                    data-bs-toggle="dropdown"></i>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="career.html">Career</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="job-post.html">Jobs</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="job-application.html">Job
+                                            Application</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown submenu">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                    data-bs-toggle="dropdown"></i>
+                                <ul class="dropdown-menu ">
+                                    <li class="nav-item"><a class="nav-link" href="card.html">Cards</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="error.html">404 Error</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown submenu">
+                                <a class="nav-link dropdown-toggle" href="blog.html" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                    data-bs-toggle="dropdown"></i>
+                                <ul class="dropdown-menu ">
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog Listing</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog-details.html">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- <a class="theme-btn theme-btn-rounded-2 theme-btn-alt"
+                            href="https://themeforest.net/item/banca-banking-business-loan-bootstrap5html-website-template/32788885?s_rank=9"
+                            target="_blank">Buy Banca</a>
+                        <div class="px-2 js-darkmode-btn" title="Toggle dark mode">
+                            <label for="something" class="tab-btn tab-btns">
+                                <ion-icon name="moon"></ion-icon>
+                            </label>
+                            <label for="something" class="tab-btn">
+                                <ion-icon name="sunny"></ion-icon>
+                            </label>
+                            <label class=" ball" for="something"></label>
+                            <input type="checkbox" name="something" id="something" class="dark_mode_switcher">
+                        </div> -->
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Header end-->
 
-            {if $userinfo.logged != 1}
-            <li class="nav-item">
-              <a class="nav-link" href="{"?a=signup"|encurl}">Sign up</a>
-            </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="{"?a=login"|encurl}">Login</a>
-            </li>
-            {else}
-            <li class="nav-item">
-              <a class="nav-link" href="{"?a=logout"|encurl}">Logout</a>
-            </li>
-            {/if}
-
-            
-
-						
-					</ul>
-				</div>
-			
-				<!-- Menu Toggle -->
-				<button class="header-toggle">
-					<span></span>
-				</button>
-			</div><!-- end container -->
-		</div>
-		<!-- end Header -->
-
-		<!-- Scroll to top button -->
-		<div class="scrolltotop icon-lg">
-			<a class="button-circle button-circle-md button-circle-dark" href="#"><i class="bi bi-arrow-up-short"></i></a>
-		</div>
-		<!-- end Scroll to top button -->
+    <main>
