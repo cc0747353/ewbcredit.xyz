@@ -105,12 +105,14 @@
     <!-- Back to top button -->
     <a id="back-to-top" title="Back to Top"></a>
 
-    <!-- JS here -->
-    <script type="text/javascript">
+    {literal}
+        <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
         }
-    </script>
+        </script>
+    {/literal}
+    <!-- JS here -->
 
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
     </script>
