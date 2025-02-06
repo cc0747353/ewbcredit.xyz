@@ -2,12 +2,12 @@
 <html lang="en-US">
 
 
-<!-- Mirrored from html-template.spider-themes.net/banca/index-small-bank.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Feb 2025 14:33:16 GMT -->
+<!-- Mirrored from html-template.spider-themes.net/banca/index-loan.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Feb 2025 14:36:00 GMT -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>EAST WEST BANK</title>
+    <title>Banca - Banking & Business Loan Bootstrap-5 HTML Template</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
     <!-- CSS here -->
@@ -15,13 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/elegant-icons.min.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/all.min.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/animate.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/nice-select.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="css/nouislider.min.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="css/animate.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="css/flatpickr.min.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/default.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" media="all" />
@@ -29,7 +23,7 @@
 
 <body>
     <!-- Preloader -->
-    {* <div id="preloader">
+    <div id="preloader">
         <div id="ctn-preloader" class="ctn-preloader">
             <div class="round_spinner">
                 <div class="spinner"></div>
@@ -40,15 +34,51 @@
             <h2 class="head">Did You Know?</h2>
             <p></p>
         </div>
-    </div> *}
+    </div>
     <!-- Header -->
     <header class="header">
-        <div class="header-menu header-menu-4" id="sticky">
+        <div class="header-top py-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="header-info-left">
+
+                            <div class="language-list">
+                                <select id="select-lang">
+                                    <option value="English">English</option>
+                                    <option value="Bangla">Bangla</option>
+                                    <option value="French">French</option>
+                                    <option value="Hindi">Hindi</option>
+                                </select>
+                            </div>
+
+                            <div class="timestamp ms-4"> <i class="icon_clock_alt"></i> Mon - Fri 10:00-18:00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="header-info-right">
+                            <ul>
+                                <li>
+                                    <img class="img-fluid" src="img/phone-outline-white.png" alt="phone"><a
+                                        href="tel:01234567890">+01234-567890</a>
+                                </li>
+
+                                <li>
+                                    <i class="icon_mail_alt"></i><a
+                                        href="mailto:bancainfo@email.com">bancainfo@email.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-menu header-menu-2" id="sticky">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container">
-                    <a class="navbar-brand sticky_logo" href="index.html">
-                        <img class="main" src="img/logo/Logo.png"  alt="logo">
-                        <img class="sticky" src="img/logo/Logo-2.png"  alt="logo">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo/Logo-2.png" srcset="img/logo/Logo-2@2x.png 2x" alt="logo">
                     </a>
                     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -68,16 +98,102 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav menu ms-auto">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link" style="color: #6b707f;">Home</a>
+                            <li class="nav-item dropdown submenu ">
+                                <a href="#" class="nav-link dropdown-toggle active" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="true"
+                                    data-bs-toggle="dropdown"></i>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item "><a href="index.html" class="nav-link">Smart Finance</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-company.html" class="nav-link ">Loan Company</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-app.html" class="nav-link">Mobile App</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-simple.html" class="nav-link ">Simple Banca</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-loan.html" class="nav-link active">Loan Steps</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-finance.html" class="nav-link">Finance Sass App</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-small-bank.html" class="nav-link">Small Bank</a>
+                                    </li>
+                                </ul>
                             </li>
+                            <li class="nav-item dropdown submenu">
+                                <a class="nav-link dropdown-toggle" href="loan.html" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Loan
+                                </a>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                    data-bs-toggle="dropdown"></i>
 
-                            <li class="nav-item">
-                                <a href="#" class="nav-link" style="color: #6b707f;">About Us</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="loan.html">Get loan</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Loan
+                                            Application</a>
+                                        <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                            data-bs-toggle="dropdown"></i>
+
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a class="nav-link" href="loan-details.html">Step
+                                                    01</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="personal-details.html">Step
+                                                    02</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="document-upload.html">Step
+                                                    03</a></li>
+
+                                        </ul>
+                                    </li>
+
+                                </ul>
                             </li>
-                            
+                            <li class="nav-item dropdown submenu">
+                                <a class="nav-link dropdown-toggle" href="career.html" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Job Pages
+                                </a>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                    data-bs-toggle="dropdown"></i>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="career.html">Career</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="job-post.html">Jobs</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="job-application.html">Job
+                                            Application</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown submenu">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                    data-bs-toggle="dropdown"></i>
+                                <ul class="dropdown-menu ">
+                                    <li class="nav-item"><a class="nav-link" href="card.html">Cards</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="error.html">404 Error</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown submenu">
+                                <a class="nav-link dropdown-toggle" href="blog.html" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                    data-bs-toggle="dropdown"></i>
+                                <ul class="dropdown-menu ">
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog Listing</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog-details.html">Blog Details</a>
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
-                        <!-- <a class="theme-btn theme-btn-rounded-2 theme-btn-alt"
+                        <a class="theme-btn"
                             href="https://themeforest.net/item/banca-banking-business-loan-bootstrap5html-website-template/32788885?s_rank=9"
                             target="_blank">Buy Banca</a>
                         <div class="px-2 js-darkmode-btn" title="Toggle dark mode">
@@ -89,7 +205,7 @@
                             </label>
                             <label class=" ball" for="something"></label>
                             <input type="checkbox" name="something" id="something" class="dark_mode_switcher">
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </nav>
