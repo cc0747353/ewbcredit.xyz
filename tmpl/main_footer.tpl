@@ -89,7 +89,7 @@
 <script type="text/javascript" src="js/wNumb.js"></script>
 <script type="text/javascript" src="js/flatpickr.min.js"></script>
 <script type="text/javascript" src="js/wow.min.js"></script>
-<script src="../../unpkg.com/ionicons%405.4.0/dist/ionicons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/ionicons@4.0.0/dist/ionicons.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
 </body>
 
