@@ -96,7 +96,7 @@
                         </span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div style="background-color: #131417" class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav menu ms-auto">
                             <li class="nav-item dropdown submenu ">
                                 <a href="#" class="nav-link dropdown-toggle active" role="button"
