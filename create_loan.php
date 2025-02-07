@@ -1,13 +1,5 @@
 <?php include 'header.php'; ?>
 
-<!-- check if user is authenticated -->
- 
-<?php
-if (!isset($_SESSION['user'])) {
-    header('location:?a=login');
-}
-
-?>
 
 <!-- BreadCrumb start -->
 <section class="breadcrumb-area">
