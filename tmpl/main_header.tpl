@@ -107,7 +107,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="create_loan.php">
+                                <a class="nav-link" href="/?a=loan">
                                     Loan
                                 </a>
                             </li>

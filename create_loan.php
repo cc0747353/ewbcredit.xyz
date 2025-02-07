@@ -1,6 +1,4 @@
-<?php 
-session_start();
-include 'header.php'; ?>
+<?php include 'header.php'; ?>
 
 
 <!-- check if user is authenticated if not redirect to ?a=login  if is authenticated continue-->
