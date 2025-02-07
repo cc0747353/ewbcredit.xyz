@@ -93,13 +93,45 @@
                     <div style="background-color: #131417" class="collapse navbar-collapse" id="navbarSupportedContent">
 
                         <ul class="navbar-nav menu ms-auto">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="loan.html">Loan</a></li>
-                            <li class="nav-item"><a class="nav-link" href="career.html">Career</a></li>
-                            <li class="nav-item"><a class="nav-link" href="card.html">Cards</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-                            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="{"?a=home"|encurl}">
+                                    Home
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="{"?a=about"|encurl}">
+                                    About Us
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="{"?a=loan"|encurl}">
+                                    Loan
+                                </a>
+                            </li>
+
+                            {if $userinfo.logged != 1}
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{"?a=signup"|encurl}">
+                                        Create Account
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{"?a=login"|encurl}">
+                                        Login 
+                                    </a>
+                                </li>
+                            {else}
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{"?a=logout"|encurl}">
+                                        Logout
+                                    </a>
+                                </li>
+                            {/if}
+
                         </ul>
 
 
