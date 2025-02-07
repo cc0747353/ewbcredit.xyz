@@ -97,23 +97,42 @@
                         <ul class="navbar-nav menu ms-auto">
 
                             <li class="nav-item">
-                                <a class="nav-link" href="?a=home">
+                                <a class="nav-link" href="{"?a=home"|encurl}">
                                     Home
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="?a=about">
+                                <a class="nav-link" href="{"?a=about"|encurl}">
                                     About Us
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="/?a=create_loan.php">
+                                <a class="nav-link" href="/?a=loan">
                                     Loan
                                 </a>
                             </li>
 
+                            <?php if ($userinfo->logged != 1): ?>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="<?php echo $smarty->fetch('{"?a=signup"|encurl}'); ?>">
+                                        Create Account
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="<?php echo $smarty->fetch('{"?a=login"|encurl}'); ?>">
+                                        Login 
+                                    </a>
+                                </li>
+                            <?php else: ?>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="<?php echo $smarty->fetch('{"?a=logout"|encurl}'); ?>">
+                                        Logout
+                                    </a>
+                                </li>
+                            <?php endif; ?>
 
                         </ul>
 

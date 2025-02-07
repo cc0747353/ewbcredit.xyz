@@ -1,8 +1,14 @@
 <?php 
+session_start();
 include 'header.php'; ?>
 
 
-
+<!-- check if user is authenticated if not redirect to ?a=login  if is authenticated continue-->
+<?php
+if (!isset($_SESSION['user'])) {
+    header('location:?a=login');
+}
+?>
 
 <!-- BreadCrumb start -->
 <section class="breadcrumb-area">
