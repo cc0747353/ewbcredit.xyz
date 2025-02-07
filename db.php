@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "ewbcngro_ewbcredit";
-$password = "N1NKbwUgpPIX";
+$password = "t?1mgz*DqpN9";
 $dbname = "ewbcngro_ewbcredit";
 
 // Create connection
