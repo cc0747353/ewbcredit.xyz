@@ -1,5 +1,14 @@
 <?php include 'header.php'; ?>
 
+<!-- check if user is authenticated -->
+ 
+<?php
+if (!isset($_SESSION['user'])) {
+    header('location:?a=login');
+}
+
+?>
+
 <!-- BreadCrumb start -->
 <section class="breadcrumb-area">
 <div class="breadcrumb-widget  pt-200 pb-110" style="background-image: url(img/breadcrumb/bg-1.png);">
