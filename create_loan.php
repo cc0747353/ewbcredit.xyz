@@ -9,7 +9,7 @@
                 <div class="breadcrumb-content pt-85">
                     <h1>Loan deatails</h1>
                     <ul>
-                        <li><a href="?a=home">home</a></li>
+                        <li><a href="/?a=home">home</a></li>
                         <li>loan</li>
                     </ul>
                 </div>
@@ -41,6 +41,7 @@
     </div>
 </div>
 </section>
+
 <?php else: ?>
 
     <!-- Loan details start -->

@@ -73,7 +73,7 @@
         <div class="header-menu header-menu-2" id="sticky">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container">
-                    <a class="navbar-brand" href="?a=home">
+                    <a class="navbar-brand" href="/?a=home">
                         <img src="img/logo/Logo-2.png" alt="logo">
                     </a>
                     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
@@ -97,38 +97,38 @@
                         <ul class="navbar-nav menu ms-auto">
 
                             <li class="nav-item">
-                                <a class="nav-link" href="?a=home">
+                                <a class="nav-link" href="/?a=home">
                                     Home
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="?a=about">
+                                <a class="nav-link" href="/?a=about">
                                     About Us
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="create_loan.php">
+                                <a class="nav-link" href="/create_loan.php">
                                     Loan
                                 </a>
                             </li>
 
                             <?php if ($userinfo['logged'] != 1): ?>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="?a=signup">
+                                    <a class="nav-link" href="/?a=signup">
                                         Create Account
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="?a=login">
+                                    <a class="nav-link" href="/?a=login">
                                         Login 
                                     </a>
                                 </li>
                             <?php else: ?>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="?a=logout">
+                                    <a class="nav-link" href="/?a=logout">
                                         Logout
                                     </a>
                                 </li>
