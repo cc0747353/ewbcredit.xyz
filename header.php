@@ -97,13 +97,13 @@
                         <ul class="navbar-nav menu ms-auto">
 
                             <li class="nav-item">
-                                <a class="nav-link" href="{"?a=home"|encurl}">
+                                <a class="nav-link" href="?a=home">
                                     Home
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="{"?a=about"|encurl}">
+                                <a class="nav-link" href="?a=about">
                                     About Us
                                 </a>
                             </li>
@@ -114,125 +114,30 @@
                                 </a>
                             </li>
 
-                            {if $userinfo.logged != 1}
+                            <?php if ($userinfo['logged'] != 1): ?>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{"?a=signup"|encurl}">
+                                    <a class="nav-link" href="?a=signup">
                                         Create Account
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{"?a=login"|encurl}">
+                                    <a class="nav-link" href="?a=login">
                                         Login 
                                     </a>
                                 </li>
-                            {else}
+                            <?php else: ?>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{"?a=logout"|encurl}">
+                                    <a class="nav-link" href="?a=logout">
                                         Logout
                                     </a>
                                 </li>
-                            {/if}
+                            <?php endif; ?>
 
                         </ul>
 
 
-                        {* <ul class="navbar-nav menu ms-auto">
-                            <li class="nav-item dropdown submenu ">
-                                <a href="#" class="nav-link dropdown-toggle active" role="button"
-                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
-                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="true"
-                                    data-bs-toggle="dropdown"></i>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item "><a href="?a=home" class="nav-link">Smart Finance</a>
-                                    </li>
-                                    <li class="nav-item"><a href="index-company.html" class="nav-link ">Loan Company</a>
-                                    </li>
-                                    <li class="nav-item"><a href="index-app.html" class="nav-link">Mobile App</a>
-                                    </li>
-                                    <li class="nav-item"><a href="index-simple.html" class="nav-link ">Simple Banca</a>
-                                    </li>
-                                    <li class="nav-item"><a href="index-loan.html" class="nav-link active">Loan Steps</a>
-                                    </li>
-                                    <li class="nav-item"><a href="index-finance.html" class="nav-link">Finance Sass App</a>
-                                    </li>
-                                    <li class="nav-item"><a href="index-small-bank.html" class="nav-link">Small Bank</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown submenu">
-                                <a class="nav-link dropdown-toggle" href="?a=loan" role="button"
-                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Loan
-                                </a>
-                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
-                                    data-bs-toggle="dropdown"></i>
-
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="?a=loan">Get loan</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Loan
-                                            Application</a>
-                                        <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
-                                            data-bs-toggle="dropdown"></i>
-
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a class="nav-link" href="loan-details.html">Step
-                                                    01</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="personal-details.html">Step
-                                                    02</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="document-upload.html">Step
-                                                    03</a></li>
-
-                                        </ul>
-                                    </li>
-
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown submenu">
-                                <a class="nav-link dropdown-toggle" href="career.html" role="button"
-                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Job Pages
-                                </a>
-                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
-                                    data-bs-toggle="dropdown"></i>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="career.html">Career</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="job-post.html">Jobs</a>
-                                    </li>
-                                    <li class="nav-item"><a class="nav-link" href="job-application.html">Job
-                                            Application</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown submenu">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    Pages
-                                </a>
-                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
-                                    data-bs-toggle="dropdown"></i>
-                                <ul class="dropdown-menu ">
-                                    <li class="nav-item"><a class="nav-link" href="card.html">Cards</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="?a=about">About Us</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="error.html">404 Error</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown submenu">
-                                <a class="nav-link dropdown-toggle" href="blog.html" role="button"
-                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Blog
-                                </a>
-                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
-                                    data-bs-toggle="dropdown"></i>
-                                <ul class="dropdown-menu ">
-                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog Listing</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="blog-details.html">Blog Details</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul> *}
+                    
                         
                         <div class="px-2 js-darkmode-btn" title="Toggle dark mode">
                             <label for="something" class="tab-btn tab-btns">
