@@ -20,7 +20,28 @@
 </section>
 <!-- BreadCrumb end -->
 
-<!-- Loan details start -->
+<?php if ($userinfo['logged'] != 1): ?>
+
+<!-- BreadCrumb start -->
+<section class="breadcrumb-area">
+<div class="breadcrumb-widget  pt-200 pb-110" style="background-image: url(img/breadcrumb/bg-1.png);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumb-content pt-85">
+                <p>You have to login to be able to create a loan</p>
+                <ul>
+                        <li><a href="?a=login">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<?php else: ?>
+
+    <!-- Loan details start -->
 <section class="loan-deatils-area bg_disable pt-130 pb-120">
 <div class="container">
     <div class="row">
@@ -164,5 +185,9 @@
 </div>
 </section>
 <!-- Loan details end -->
+    
+<?php endif; ?>
+
+
 
 <?php include 'footer.php'; ?>
