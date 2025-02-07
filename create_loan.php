@@ -31,7 +31,9 @@
                 <div class="breadcrumb-content pt-85">
                 <p>You have to login to be able to create a loan</p>
                 <ul>
-                        <li><a href="?a=login">Login</a></li>
+                        <li>
+                                
+                        <a href="/?a=login">Login</a></li>
                     </ul>
                 </div>
             </div>
