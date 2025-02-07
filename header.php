@@ -161,7 +161,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown submenu">
-                                <a class="nav-link dropdown-toggle" href="create_loan.php" role="button"
+                                <a class="nav-link dropdown-toggle" href="?a=loan" role="button"
                                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Loan
                                 </a>
@@ -169,7 +169,7 @@
                                     data-bs-toggle="dropdown"></i>
 
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="create_loan.php">Get loan</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="?a=loan">Get loan</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Loan
                                             Application</a>
