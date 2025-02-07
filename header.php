@@ -109,7 +109,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="/?a=loan">
+                                <a class="nav-link" href="create_loan.php">
                                     Loan
                                 </a>
                             </li>
