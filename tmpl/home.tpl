@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <a href="create_loan.php" data-wow-delay="0.5s" class="wow fadeInUp theme-btn theme-btn-lg mt-50">Apply
 =======
                   <a href="loan.html" data-wow-delay="0.5s" class="wow fadeInUp theme-btn theme-btn-lg mt-50">Apply
@@ -24,6 +25,9 @@
 =======
                   <a href="loan.html" data-wow-delay="0.5s" class="wow fadeInUp theme-btn theme-btn-lg mt-50">Apply
 >>>>>>> parent of 0b2b19e (Update home.tpl)
+=======
+                  <a href="?a=loan" data-wow-delay="0.5s" class="wow fadeInUp theme-btn theme-btn-lg mt-50">Apply
+>>>>>>> parent of d812092 (drguik;./)
 =======
                   <a href="?a=loan" data-wow-delay="0.5s" class="wow fadeInUp theme-btn theme-btn-lg mt-50">Apply
 >>>>>>> parent of d812092 (drguik;./)
@@ -145,6 +149,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       <a href="create_loan.php" class="theme-btn mt-20 w-100">Apply for loans</a>
 =======
                       <a href="loan.html" class="theme-btn mt-20 w-100">Apply for loans</a>
@@ -152,6 +157,9 @@
 =======
                       <a href="loan.html" class="theme-btn mt-20 w-100">Apply for loans</a>
 >>>>>>> parent of 0b2b19e (Update home.tpl)
+=======
+                      <a href="?a=loan" class="theme-btn mt-20 w-100">Apply for loans</a>
+>>>>>>> parent of d812092 (drguik;./)
 =======
                       <a href="?a=loan" class="theme-btn mt-20 w-100">Apply for loans</a>
 >>>>>>> parent of d812092 (drguik;./)
