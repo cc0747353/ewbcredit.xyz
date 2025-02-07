@@ -71,7 +71,7 @@
         <div class="header-menu header-menu-2" id="sticky">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="?a=home">
                         <img src="img/logo/Logo-2.png" alt="logo">
                     </a>
                     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
@@ -142,7 +142,7 @@
                                 <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="true"
                                     data-bs-toggle="dropdown"></i>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item "><a href="index.html" class="nav-link">Smart Finance</a>
+                                    <li class="nav-item "><a href="?a=home" class="nav-link">Smart Finance</a>
                                     </li>
                                     <li class="nav-item"><a href="index-company.html" class="nav-link ">Loan Company</a>
                                     </li>
@@ -159,7 +159,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown submenu">
-                                <a class="nav-link dropdown-toggle" href="loan.html" role="button"
+                                <a class="nav-link dropdown-toggle" href="?a=loan" role="button"
                                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Loan
                                 </a>
@@ -167,7 +167,7 @@
                                     data-bs-toggle="dropdown"></i>
 
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="loan.html">Get loan</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="?a=loan">Get loan</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Loan
                                             Application</a>
@@ -212,7 +212,7 @@
                                     data-bs-toggle="dropdown"></i>
                                 <ul class="dropdown-menu ">
                                     <li class="nav-item"><a class="nav-link" href="card.html">Cards</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="?a=about">About Us</a></li>
                                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
                                     <li class="nav-item"><a class="nav-link" href="error.html">404 Error</a></li>
                                 </ul>

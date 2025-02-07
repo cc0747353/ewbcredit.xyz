@@ -9,8 +9,7 @@
                 <div class="breadcrumb-content pt-85">
                     <h1>Loan deatails</h1>
                     <ul>
-                        <li><a href="index.html">home</a></li>
-                        <li><a href="index.html">pages</a></li>
+                        <li><a href="?a=home">home</a></li>
                         <li>loan</li>
                     </ul>
                 </div>
