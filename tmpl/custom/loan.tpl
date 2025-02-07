@@ -1,4 +1,3 @@
-{assign var="allow" value="all"}
 {include file="main_header.tpl"}
 
 <!-- BreadCrumb start -->
