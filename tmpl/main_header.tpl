@@ -94,24 +94,23 @@
 
                         <ul class="navbar-nav menu ms-auto">
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="{"?a=home"|encurl}">
-                                    Home
-                                </a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="?a=home">
+                                Home
+                            </a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="{"?a=about"|encurl}">
-                                    About Us
-                                </a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="?a=about">
+                                About Us
+                            </a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="create_loan.php">
-                                    Loan
-                                </a>
-                            </li>
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="/?a=create_loan.php">
+                                Loan
+                            </a>
+                        </li>
                             {if $userinfo.logged != 1}
                                 <li class="nav-item">
                                     <a class="nav-link" href="{"?a=signup"|encurl}">
